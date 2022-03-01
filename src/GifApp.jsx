@@ -20,6 +20,14 @@ export const GifApp = () => {
                 <GifGrid key={category} category={category} />
             )}
         </ol>
+        <div className='footer'>
+                <div>
+                    made by <a href='https://durbonca.com' target="_blank" rel="noreferrer">@durbonca</a>
+                </div>
+                <div>
+                    Powered by <a href='https://giphy.com/' target="_blank" rel="noreferrer">Giphy</a>
+                </div>
+        </div>
       </>
   )
 }
