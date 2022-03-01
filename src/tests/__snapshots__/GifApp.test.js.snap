@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifApp test return a component 1`] = `
+<Fragment>
+  <h2>
+    Gif App
+  </h2>
+  <AddCategory
+    handleAdd={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Hola"
+      key="Hola"
+    />
+  </ol>
+  <div
+    className="footer"
+  >
+    <div>
+      made by 
+      <a
+        href="https://durbonca.com"
+        rel="noreferrer"
+        target="_blank"
+      >
+        @durbonca
+      </a>
+    </div>
+    <div>
+      Powered by 
+      <a
+        href="https://giphy.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Giphy
+      </a>
+    </div>
+  </div>
+</Fragment>
+`;
