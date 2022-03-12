@@ -4,8 +4,10 @@ import { GifApp } from '../GifApp';
 
 describe('GifApp test', ()=>{
     test('return a component', ()=>{
-        const component = shallow(<GifApp/>);
-        expect(component).toMatchSnapshot();
-        expect(component.find('h2').text().trim()).toBe('Gif App');
+        const wrapper = shallow(<GifApp/>);
+        expect(wrapper).toMatchSnapshot();
+        expect(wrapper.find('h2').text().trim()).toBe('Gif App');
+        expect(wrapper.find('AddCategory').length).toBe(1);
+        expect(wrapper.find('GifGrid').length).toBe(1);
     })
 })
